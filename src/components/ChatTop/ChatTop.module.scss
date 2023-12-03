@@ -1,0 +1,23 @@
+.root {
+	padding: 20px;
+	display: flex;
+	justify-content: flex-end;
+	border-bottom: 1px solid gray;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+		rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	background-color: #fff;
+	& button {
+		background-color: green;
+		padding: 12px 32px;
+		border-radius: 20px;
+		color: #fff;
+		font-size: 18px;
+		outline: none;
+		border: none;
+	}
+}
